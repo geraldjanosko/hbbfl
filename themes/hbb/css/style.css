@@ -68,6 +68,9 @@ li:last-of-type .dropdown-item {
 .btn-wrapper {
 	margin: 10px 0;
 }
+.btn-wrapper .btn {
+	margin: 0px 8px;
+}
 .btn {
 	font-weight: bold;
 }
@@ -144,10 +147,11 @@ li:last-of-type .dropdown-item {
 	text-shadow: 1px 1px #666;
 }
 #site-name {
-	font-size: 1rem;
+	font-size: 1.25rem;
+	line-height: 1rem;
 }
 #site-slogan {
-	font-size: 0.875rem;
+	font-size: 1rem;
 }
 /* Articles */
 .article-wrapper {

@@ -48,14 +48,14 @@
 {% if page.sidebar_second %}
   {%
     set classes = [
-      'col-sm-9',
-      'col-sm-3'
+      'col-md-9',
+      'col-md-3'
     ]
   %}
 {% else %}
   {%
     set classes = [
-      'col-sm-12'
+      'col-md-12'
     ]
   %}
 {% endif %}
@@ -104,7 +104,7 @@
       {{ page.content }}
     </div>
     {% if page.sidebar_second %}
-      <div class="classes.1">
+      <div class="{{ classes.1 }}">
         {{ page.sidebar_second }}
       </div>
     {% endif %}
